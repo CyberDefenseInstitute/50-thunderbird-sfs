@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Thunderbird
+GenericName=Mail Client
+Exec=/opt/bin/thunderbird %u
+Terminal=false
+Type=Application
+Icon=thunderbird
+Categories=Network;Email;News;GTK;
+StartupNotify=true
+StartupWMClass=thunderbird-bin
+X-MultipleArgs=false
+MimeType=message/rfc822;text/x-vcard;x-scheme-handler/mailto;

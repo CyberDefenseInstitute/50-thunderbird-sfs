@@ -1,0 +1,11 @@
+#!/bin/sh
+
+. "$(dirname "$0")/.common.sh"
+
+set -e
+
+tbz_local="$(dl_file "$(latest_url)")"
+
+mkdir -p "$DESTDIR/$inst_path"
+set -x
+tar xjvf "$tbz_local" -C "$DESTDIR/$inst_path"
